@@ -12,7 +12,9 @@ export const SHORTS_ICON = "https://upload.wikimedia.org/wikipedia/commons/thumb
 
 export const SUBSCRIPTION_ICON = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO4tIWRcb8bnO0QltGJZ5zDvmRZbFhX6ByMg&usqp=CAU";
 
-const GOOGLE_API = 'AIzaSyC_jp09vwx6vwf5IYR4fQHqq2_3cMgyAsA';
+export const GOOGLE_API = 'AIzaSyC_jp09vwx6vwf5IYR4fQHqq2_3cMgyAsA';
 
 export const YOUTUBE_API ='https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key='+ GOOGLE_API;
 
+
+export const VIDEO_BY_ID = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=Ks-_Mh1QhMc&key='+GOOGLE_API;
